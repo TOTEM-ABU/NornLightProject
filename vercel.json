@@ -4,10 +4,6 @@
     {
       "src": "dist/**/*",
       "use": "@vercel/static"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -16,6 +12,26 @@
       "dest": "/dist/index.html"
     }
   ],
-  "installCommand": "npm install --frozen-lockfile",
-  "buildCommand": "npm run build"
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).jsx",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    }
+  ],
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm run build"
 }
