@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "dist/**/*",
       "use": "@vercel/static"
     },
     {
@@ -13,9 +13,9 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/dist/index.html"
     }
   ],
-  "installCommand": "pnpm install --frozen-lockfile",
-  "buildCommand": "pnpm build"
+  "installCommand": "npm install --frozen-lockfile",
+  "buildCommand": "npm run build"
 }
