@@ -1,0 +1,33 @@
+1-team:
+    Muhiddin
+    Ahmadillo
+    Hojiakbar
+    Asilbek
+    Abdurahmon
+
+2-team:
+    Muhammadyusuf
+    Abubakr
+    Umar
+    Dilmuhammad
+
+3-team:
+    Aziz
+    Dilzodbek
+    Toxir
+    Nurken
+
+
+Tasks: 
+    1. Create components: Button, Inputs, Typography, Product Card, 404 Page (Mobile), Favourite Page (Mobile), Basket (Mobile)
+    2. Navbar, Footer (Mobile), Garant page (Mobile), Return Page (Mobile), Shipping and Payment (Mobile)
+    3. Home Page (Mobile), Catalog (Mobile), Blog (Mobile)
+    4. All products page (Mobile), Product Detail (Mobile), Contacts (Mobile), About Us (Mobile)
+    (5) Shipping and Payment, Contacts (Mobile), About us, basket (Mobiles)
+
+
+    1. Hojiakbar, Dilzodbek, Muhammadyusuf
+    2. Nurken, Umar, Abdurahmon
+    3. Toxir, Muhiddin, Abubakr
+    4. Asilbek, Dilmuhammad, Aziz
+    5. Ahmadillo
